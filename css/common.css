@@ -1,0 +1,289 @@
+@charset "UTF-8";
+
+/* 重置样式 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #666;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+ul {
+    list-style: none;
+}
+
+input {
+    outline: none;
+    padding: 0;
+}
+
+li {
+    list-style: none
+}
+
+
+
+
+
+/* 公共样式 */
+
+/* 通栏 */
+.container-fluid {width: 100%;min-width: 1200px;}
+
+/* 版心 */
+.container {width: 1200px;margin: 0 auto;}
+
+/* 测试工具 */
+.bd {border: 1px solid red;box-sizing: border-box;}
+
+/* 公共样式背景颜色 */
+.bg000 {background-color: #000;}
+.bgf60 {background-color: #f60 !important;}
+.bgeb {background-color: #ebebeb;}
+.bgf3 {background-color: #f3f3f3;}
+
+
+/* 浮动 */
+.fl {float: left;}
+.fr {float: right;}
+
+
+
+/* 清除浮动 */
+.clearfix:after{content: "";height: 0;display: block;clear: both;}
+
+
+
+
+* 文字颜色 */
+.ce6 {color: #e6e6e6;}
+.f60 {color: #f60;}
+.f {color: #fff}
+.red {color: red;}
+.ccc {color: #ccc}
+
+
+/* 背景颜色 */
+.bgf6 {background: #f6f6f6;}
+
+
+
+/* 文字大小 */
+.f18 {font-size: 18px;}
+.f12 {font-size: 12px;}
+.f10 {font-size: 10px;}
+.f24{font-size: 24px;}
+
+
+/* 居中 */
+.tCenter{text-align: center;}
+
+
+ 
+
+/* 行高 */
+.lh {line-height: 28px;}
+.lh38 {line-height: 38px;}
+.ht {height: 28px;}
+.lh40 {line-height: 40px;}
+
+
+/* 外边距 */
+.mg {margin-right: 36px;}
+.mgr10 {margin-right: 10px;}
+.mgt30 {margin-top: 30px;}
+.mt {margin-top: 26px;}
+.mgt4 {margin-top: 4px;}
+.mgt10 {margin-top: 10px;}
+.mgt10 {margin-top: 10px;}
+
+.mgt50 {margin-top: 50px;}
+.mgl {margin-left: 10px;}
+.mgt20{margin-top: 20px;}
+.mgl30{margin-left: 30px}
+
+.mgr100{margin-right: 100px;}
+
+
+
+/* 内边距 */
+.pdt10 { padding-top: 10px;}
+
+
+/* 首行缩进 */
+.tit {text-indent: 210px;}
+
+.ti10 {text-indent: 10px;}
+
+.cTitle {border-bottom: 6px solid #f60; line-height: 38px;}
+.cTitle h2 {font-size: 24px;}
+
+/* 页面样式结束 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header部分 */
+#header .tSerch {
+    width: 390px;
+    height: 36px;
+    text-indent: 10px;
+    box-sizing: border-box;
+    border: 2px solid #f60;
+}
+
+#header .sbt {
+    width: 50px;
+    height: 36px;
+    border: none;
+    background: url(../images/bgicon.png)no-repeat;
+    left: 0;
+    top: 0;
+}
+
+#header .container {
+    position: relative;
+}
+
+#header .logo {
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+#header .container .shopBox a {
+    float: left;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    background: #f3f3f3;
+}
+
+#header .container .shopBox .shopCar {
+    background: url(../images/bgicon.png)no-repeat 0px -44px;
+    text-indent: 40px;
+}
+
+#header .container .shopBox .shopCar1 {
+    text-align: center;
+}
+
+#header form {
+    margin-top: 4px;
+}
+
+
+/* nav部分 */
+#header .nav li {
+    float: left;
+    margin-right: 34px;
+    color: #323232;
+    font-weight: bold;
+}
+
+
+
+/* <!-- menuSlide -->  部分*/
+#menuSlide .menu {
+    width: 200px;
+    height: 430px;
+    position: relative;
+}
+
+#menuSlide .menu li:hover {
+    background: #fff;
+}
+
+#menuSlide .menu li p {
+    width: 200px;
+    line-height: 34px;
+    text-indent: 20px;
+}
+
+#menuSlide .menu li:hover>p a {
+    color: #f60
+}
+
+#menuSlide .menu li:hover>p {
+    width: 200px;
+    background-color: #fff;
+    border: 1px solid #f60;
+    color: #f60;
+    position: relative;
+    z-index: 100;
+    border-right: none;
+}
+
+#menuSlide .menu .dl {
+    width: 580px;
+    height: 430px;
+    border: 1px solid #f60;
+    background: #fff;
+    padding-left: 40px;
+    position: absolute;
+    left: 200px;
+    top: 0;
+    box-sizing: border-box;
+    z-index: 90;
+    display: none;
+}
+
+#menuSlide .menu ul:hover dl {
+    display: block;
+}
+
+#menuSlide .menu .dl dt {
+    line-height: 28px;
+    border-bottom: 2px solid #e6e6e6;
+    margin-right: 70px;
+}
+
+#menuSlide .menu .dl p a {
+    margin-right: 12px;
+    color: #262626;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+#menuSlide .menu .dl dd a {
+    color: #262626;
+    font-weight: bold;
+    margin-right: 12px;
+    line-height: 28px;
+}
+
+#menuSlide .lunBo {
+    width: 1000px;
+    height: 430px;
+    float: left;
+}

@@ -1,0 +1,113 @@
+
+
+
+
+@charset "utf-8";
+
+#header .container{position: relative;}
+.logo img{position: absolute;  left: 0;top: 0;width: 130px;height: 80px;}
+.nav div{margin-right: 30px;}
+
+
+/* <!-- 购物车部分 --> */
+
+.p{font-size: 18px;font-weight: bold;}
+#form table{border:0px solid #fff;width: 1200px;border:1px solid #ccc;border-collapse: collapse;}
+#form table tr td{border-bottom: 2px solid #ccc;border-left: none;}
+  
+
+ 
+#legouBook .newBook{border-bottom: 2px solid #f60;}
+#legouBook .newBook li{line-height: 38px;width: 150px;background: #f60;font-size: 18px;color: #fff;text-indent: 10px;}
+#legouBook .content{padding: 10 0;box-sizing: border-box;}
+#legouBook .content ul li:hover{background: #ccc;}
+#legouBook .content ul li{float: left;  width: 236px;height: 300px;box-sizing: border-box;margin:10px 0 px;}
+#legouBook .content ul li .one{text-align: center;margin-top: 10px; }
+#legouBook .content ul li .two{text-indent: 10px;  line-height: 38px;font-size: 18px;   }
+#legouBook .content ul li .three{text-indent: 10px; color: red; font-size: 18px;}
+#legouBook .content ul li .four{text-indent: 10px; color: red; font-size: 18px;line-height: 30px;}
+
+
+
+/* <!-- AD footer --> */
+#AD_footer img{width: 100%;height: 100px;}
+
+
+
+
+
+/* 首页footer部分 */
+
+
+/* 底部 */
+
+#service{border-top: 4px solid #f60;}
+#service ul{height: 80px; background:rgb(242,242,242);line-height: 80px;}
+#service ul li {float: left; margin-left: 150px;}
+
+
+ 
+
+
+#footer .foot li { float: left;width: 200px; height: 100px;box-sizing: border-box;margin-top: 50px;
+}
+
+#footer .foot li a {
+    float: left;
+    width: 180px;
+    text-align: center;
+}
+
+#footer .foot li a:first-child {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 38px;
+}
+
+#footer {
+    width: 1000px;
+    height: 150px;
+    position: relative;
+}
+
+#footer .img {
+    position: absolute;
+    right: -158px;
+    top: 70px;
+}
+
+#last {
+    width: 1000px;
+    height: 100px;
+    margin-top: 40px;
+}
+
+#last p span {
+    margin-right: 26px;
+}
+
+#last .center {
+    width: 100%;
+    text-align: center;
+    line-height: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

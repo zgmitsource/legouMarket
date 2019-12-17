@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>产品详情</title>
+
+
+    <!-- 引入css的公共样式 -->
+    <link rel="stylesheet" href="../legoumarket-productList/cs/common.css">
+
+
+    <!--引入插件css -->
+
+
+    <!-- 当前页面css -->
+    <link rel="stylesheet" href="./cs/product_detail.css">
+
+    <!-- 引入jq -->
+
+
+    <script src="./js/jquery.1.4.2-min.js"></script>
+
+    <!-- 引入js样式 -->
+    <script src="./js/product_detail.js"></script>
+
+
+
+
+
+</head>
+
+<body style="margin-bottom: 400px;">
+
+    <!-- header -->
+    <header id="header" class="clearfix">
+
+        <div class="container-fluid bg000 ht ">
+
+            <div class="container ce6 lh clearfix">
+                <a class="ce6 fl tit" href="#">legochina.cn</a>
+
+                <p class="fr">欢迎光临 <a href="#" class="f60">乐购</a>，请 <a href="#" class="f60">登陆</a>\<a href="#"
+                        class="f60"> 注册</a></p>
+
+
+                <!-- 加入logo -->
+                <h1 class="logo">
+                    <img src="./images/read.png" alt="#">
+                </h1>
+
+            </div>
+        </div>
+
+        <div class="container clearfix ">
+
+
+            <p class="shopBox fr bgeb mgt4">
+                <a href="#" class=" shopCar bgf60 f">购物车 <span>3</span></a>
+                <a href="#" class="shopCar1">我的订单</a>
+            </p>
+
+            <form action="#" class="fr mg explore">
+                <a href="#" class="search">
+                    <input class="tSerch fl" type="text" placeholder="创意文具">
+                    <input class="sbt bgf60 fl" type="submit" value="">
+                </a>
+
+            </form>
+
+        </div>
+
+        <div class="nav container  mt  clearfix ">
+
+            <ul class="fr">
+
+                <li><a href="#">图书</a></li>
+                <li><a href="#">电子书</a></li>
+                <li><a href="#">原创文学</a></li>
+                <li><a href="#">服装</a></li>
+                <li><a href="#">运动户外</a></li>
+                <li><a href="#">孕婴童</a></li>
+                <li><a href="#">家居</a></li>
+                <li><a href="#">创意文具</a></li>
+                <li><a href="#">地方特产</a></li>
+                <li><a href="#">海外购</a></li>
+                <li><a href="#">电器城</a></li>
+
+            </ul>
+
+        </div>
+
+    </header>
+
+    <div id="list" class=" container  ">
+
+        <ul>
+            <li>
+                <a href="#">图书</a> >
+                <a href="#">小说 </a> >
+                <a href="#">情感</a> /
+                <a href="#">家庭</a> /
+                <a href="#">婚姻</a> >
+                <a href="#">博集天卷</a> >
+                <a href="#">她和他</a>
+            </li>
+        </ul>
+
+
+    </div>
+
+    <div id="introduce" class="container clearfix  ">
+
+
+
+        <div class="left fl">
+
+
+
+
+            <div class="preview">
+
+                <div id="vertical" class="bigImg">
+
+                    <img src="mid/05.jpg" width="400" height="400" alt="" id="midimg" />
+
+                    <div style="display:none;" id="winSelector"></div>
+
+                </div>
+                <!--bigImg end-->
+
+                <div class="smallImg">
+
+                    <div class="scrollbutton smallImgUp disabled"></div>
+
+                    <div id="imageMenu">
+
+                        <ul>
+
+                            <li id="onlickImg"><img src="./images/05.jpg" width="68" height="68" alt="洋妞" /></li>
+
+                            <li><img src="./images/02.jpg" width="68" height="68" alt="洋妞" /></li>
+
+                            <li><img src="./images/03.jpg" width="68" height="68" alt="洋妞" /></li>
+
+                            <li><img src="./images/04.jpg" width="68" height="68" alt="洋妞" /></li>
+
+                            <li><img src="./images/01.jpg" width="68" height="68" alt="洋妞" /></li>
+
+                            <li><img src="./images/06.jpg" width="68" height="68" alt="洋妞" /></li>
+
+                            <li><img src="./images/04.jpg" width="68" height="68" alt="洋妞" /></li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="scrollbutton smallImgDown"></div>
+
+                </div>
+                <!--smallImg end-->
+
+                <div id="bigView" style="display:none;"><img width="800" height="800" alt="" src="" /></div>
+
+            </div>
+
+            <p class="bH">商品编号：11950959</p>
+
+
+
+        </div>
+
+
+
+        <div class="right fr ">
+
+            <p class="p1">大小乔</p>
+            <p class="p2">《观沧海》作者:曹操 ,三国时期著名的诗人、政治家、军事家。中国连续365天在线，销售量超过1册</p>
+            <p class="p3">美国篮球运动员&emsp;詹姆斯译，</p>
+
+
+
+            <div class="price mgt10 ">
+                <p> 乐购价：<span class="f24 red">&yen;9.9</span> &emsp;[定价: <del> &yen;38.00</del> ]（降价通知） </p>
+                <p>促销信息: <span class="red">满减&emsp;每满150.00元，可减50.00元的现金</span>&emsp; <a href="#">详情</a>>> </p>
+                <p>领券: <span>
+                        <img src="./images/ppp.png" alt="">
+                    </span> </p>
+
+
+                <div class="judge">
+                    <p>累计评价</p>
+                    <p class="f60 f18">99999</p>
+                </div>
+
+            </div>
+
+            <ul class="fZhuang clearfix ">
+                <li>种类选择:</li>
+                <li class="one">平装版</li>
+                <li class="two active">精装版</li>
+            </ul>
+
+            <div class="shopCar mgt30 clearfix ">
+
+                <div class="one ">
+                    <p class="f18">1</p>
+                </div>
+                <div class="two">
+                    <button class="f18">加入购物车 </button>
+
+                </div>
+
+                <div class="north">
+
+                    <p>
+                        +
+                    </p>
+
+                </div>
+                <div class="south ">
+
+                    <p>
+                        -
+                    </p>
+
+                </div>
+
+
+            </div>
+
+            <p class="Tip">温馨提示：支持7天无理由退货</p>
+
+
+
+
+        </div>
+
+
+    </div>
+
+
+    <!-- legouBook -->
+    <section id="legouBook" class="container mgt30">
+        <div class="newBook">
+            <ul>
+                <li>人气单品</li>
+
+            </ul>
+        </div>
+
+        <div class="content  container clearfix">
+
+            <ul class="clearfix">
+                <li>
+                    <p class="one">
+                        <img src="./images/22935553-1_l.jpg" alt="">
+                    </p>
+
+                    <p>
+                        <img src="./images/8折.png" alt="">
+                    </p>
+
+                    <p class="two">白夜行 &emsp; 东野上吾</p>
+
+                    <p class="three">推荐：<img src="./images/评价.png" alt=""></p>
+
+                    <p class="four">&yen;38 <del class="ccc">&yen;58</del></p>
+                </li>
+
+                <li>
+                    <p class="one">
+                        <img src="./images/22935553-1_l.jpg" alt="">
+                    </p>
+
+                    <p>
+                        <img src="./images/8折.png" alt="">
+                    </p>
+
+                    <p class="two">白夜行 &emsp; 东野上吾</p>
+
+                    <p class="three">推荐：<img src="./images/评价.png" alt=""></p>
+
+                    <p class="four">&yen;38 <del class="ccc">&yen;58</del></p>
+                </li>
+
+
+
+
+                <li>
+                    <p class="one">
+                        <img src="./images/22935553-1_l.jpg" alt="">
+                    </p>
+
+                    <p>
+                        <img src="./images/8折.png" alt="">
+                    </p>
+
+                    <p class="two">白夜行 &emsp; 东野上吾</p>
+
+                    <p class="three">推荐：<img src="./images/评价.png" alt=""></p>
+
+                    <p class="four">&yen;38 <del class="ccc">&yen;58</del></p>
+                </li>
+
+
+
+
+                <li>
+                    <p class="one">
+                        <img src="./images/22935553-1_l.jpg" alt="">
+                    </p>
+
+                    <p>
+                        <img src="./images/8折.png" alt="">
+                    </p>
+
+                    <p class="two">白夜行 &emsp; 东野上吾</p>
+
+                    <p class="three">推荐：<img src="./images/评价.png" alt=""></p>
+
+                    <p class="four">&yen;38 <del class="ccc">&yen;58</del></p>
+                </li>
+
+
+
+
+                <li>
+                    <p class="one">
+                        <img src="./images/22935553-1_l.jpg" alt="">
+                    </p>
+
+                    <p>
+                        <img src="./images/8折.png" alt="">
+                    </p>
+
+                    <p class="two">白夜行 &emsp; 东野上吾</p>
+
+                    <p class="three">推荐：<img src="./images/评价.png" alt=""></p>
+
+                    <p class="four">&yen;38 <del class="ccc">&yen;58</del></p>
+                </li>
+
+
+
+
+
+
+
+
+
+
+
+            </ul>
+
+        </div>
+
+
+    </section>
+
+
+    <!-- 内容部分 -->
+    <section id="content" class="container   clearfix mgt30">
+
+        <div class=" left fl">
+
+            <ul>
+                <li class="">看了又看</li>
+                <li>
+                    <p class="one">
+                        <img src="./images/22935553-1_l.jpg" alt="">
+                    </p>
+
+                    <p>
+                        <img src="./images/8折.png" alt="">
+                    </p>
+
+                    <p class="two">白夜行 &emsp; 东野上吾</p>
+
+                    <p class="three">推荐：<img src="./images/评价.png" alt=""></p>
+
+                    <p class="four">&yen;38 <del class="ccc">&yen;58</del></p>
+                </li>
+
+                <li>
+                    <p class="one">
+                        <img src="./images/22935553-1_l.jpg" alt="">
+                    </p>
+
+                    <p>
+                        <img src="./images/8折.png" alt="">
+                    </p>
+
+                    <p class="two">白夜行 &emsp; 东野上吾</p>
+
+                    <p class="three">推荐：<img src="./images/评价.png" alt=""></p>
+
+                    <p class="four">&yen;38 <del class="ccc">&yen;58</del></p>
+                </li>
+
+
+                <li>
+                    <p class="one">
+                        <img src="./images/22935553-1_l.jpg" alt="">
+                    </p>
+
+                    <p>
+                        <img src="./images/8折.png" alt="">
+                    </p>
+
+                    <p class="two">白夜行 &emsp; 东野上吾</p>
+
+                    <p class="three">推荐：<img src="./images/评价.png" alt=""></p>
+
+                    <p class="four">&yen;38 <del class="ccc">&yen;58</del></p>
+                </li>
+
+
+
+            </ul>
+
+        </div>
+
+
+
+
+        <!-- 右边部分 -->
+
+
+        <div class=" right fr">
+
+            <div class=" head clearfix">
+
+                <div class="one fl  ">商品介绍</div>
+                <div class="two  fl">评价（9999）</div>
+
+
+            </div>
+
+
+            <div class="photo">
+                <img src="./images/photo.png" alt="">
+            </div>
+
+
+            <div class="judge_list">
+
+                <ul class="clearfix">
+                    <li class="on">全部评价（9999）</li>
+                    <li>好评（888）</li>
+                    <li>中评（888）</li>
+                    <li>差评（888）</li>
+
+                </ul>
+
+            </div>
+
+
+
+
+            <div class="judge_content  clearfix">
+
+                <div class="one  fl">
+
+                    <p>
+                        <img src="./images/star.png" alt="">
+                    </p>
+
+
+                    <p>下单后5天评论</p>
+                    <p>2016-08-11</p>
+                </div>
+
+
+
+
+                <div class="two  fl">
+                    <p>书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关
+                        键是价格真给力</p>
+                </div>
+                <div class="three  fr">
+
+                    <p> <span>
+                            <img src="./images/legou.png" alt="">
+                        </span> 洲**子 </p>
+
+                    <p class="f60">金牌会员</p>
+
+                    <p>来自iPhone客户端</p>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="judge_content  clearfix">
+
+                <div class="one  fl">
+
+                    <p>
+                        <img src="./images/star.png" alt="">
+                    </p>
+
+
+                    <p>下单后5天评论</p>
+                    <p>2016-08-11</p>
+                </div>
+
+
+
+
+                <div class="two  fl">
+                    <p>书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关
+                        键是价格真给力</p>
+                </div>
+                <div class="three  fr">
+
+                    <p> <span>
+                            <img src="./images/legou.png" alt="">
+                        </span> 洲**子 </p>
+
+                    <p class="f60">金牌会员</p>
+
+                    <p>来自iPhone客户端</p>
+
+                </div>
+
+
+            </div>
+
+            <div class="judge_content  clearfix">
+
+                <div class="one  fl">
+
+                    <p>
+                        <img src="./images/star.png" alt="">
+                    </p>
+
+
+                    <p>下单后5天评论</p>
+                    <p>2016-08-11</p>
+                </div>
+
+
+
+
+                <div class="two  fl">
+                    <p>书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关
+                        键是价格真给力</p>
+                </div>
+                <div class="three  fr">
+
+                    <p> <span>
+                            <img src="./images/legou.png" alt="">
+                        </span> 洲**子 </p>
+
+                    <p class="f60">金牌会员</p>
+
+                    <p>来自iPhone客户端</p>
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="judge_content  clearfix">
+
+                <div class="one  fl">
+
+                    <p>
+                        <img src="./images/star.png" alt="">
+                    </p>
+
+
+                    <p>下单后5天评论</p>
+                    <p>2016-08-11</p>
+                </div>
+
+
+
+
+                <div class="two  fl">
+                    <p>书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关
+                        键是价格真给力</p>
+                </div>
+                <div class="three  fr">
+
+                    <p> <span>
+                            <img src="./images/legou.png" alt="">
+                        </span> 洲**子 </p>
+
+                    <p class="f60">金牌会员</p>
+
+                    <p>来自iPhone客户端</p>
+
+                </div>
+
+
+            </div>
+
+            <div class="judge_content  clearfix">
+
+                <div class="one  fl">
+
+                    <p>
+                        <img src="./images/star.png" alt="">
+                    </p>
+
+
+                    <p>下单后5天评论</p>
+                    <p>2016-08-11</p>
+                </div>
+
+
+
+
+                <div class="two  fl">
+                    <p>书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关
+                        键是价格真给力</p>
+                </div>
+                <div class="three  fr">
+
+                    <p> <span>
+                            <img src="./images/legou.png" alt="">
+                        </span> 洲**子 </p>
+
+                    <p class="f60">金牌会员</p>
+
+                    <p>来自iPhone客户端</p>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="judge_content  clearfix">
+
+                <div class="one  fl">
+
+                    <p>
+                        <img src="./images/star.png" alt="">
+                    </p>
+
+
+                    <p>下单后5天评论</p>
+                    <p>2016-08-11</p>
+                </div>
+
+
+
+
+                <div class="two  fl">
+                    <p>书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关
+                        键是价格真给力</p>
+                </div>
+                <div class="three  fr">
+
+                    <p> <span>
+                            <img src="./images/legou.png" alt="">
+                        </span> 洲**子 </p>
+
+                    <p class="f60">金牌会员</p>
+
+                    <p>来自iPhone客户端</p>
+
+                </div>
+
+
+            </div>
+
+            <div class="judge_content  clearfix">
+
+                <div class="one  fl">
+
+                    <p>
+                        <img src="./images/star.png" alt="">
+                    </p>
+
+
+                    <p>下单后5天评论</p>
+                    <p>2016-08-11</p>
+                </div>
+
+
+
+
+                <div class="two  fl">
+                    <p>书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关
+                        键是价格真给力</p>
+                </div>
+                <div class="three  fr">
+
+                    <p> <span>
+                            <img src="./images/legou.png" alt="">
+                        </span> 洲**子 </p>
+
+                    <p class="f60">金牌会员</p>
+
+                    <p>来自iPhone客户端</p>
+
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
+
+    </section>
+
+
+    <div class="bRight container ">
+
+        <ul class="clearfix">
+            <li>>></li>
+            <li>...</li>
+            <li>6</li>
+            <li>5</li>
+            <li>4</li>
+            <li>3</li>
+            <li>2</li>
+            <li class="on">1</li>
+        </ul>
+
+
+
+    </div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+
+
+
+
+@charset  "utf-8";
+
+ #welCome{height: 40px; margin-top: 10px;  }
+ #welCome p{text-indent: 230px; font-size: 20px;line-height: 40px;}
+
+
+
+ #jd{height: 474px;margin-top: 20px;  background:url(../images/bg-ad.png);
+    background-size:100% 100% ;}
+ #jd .content{position: relative;}
+ #jd .content .register{height:380px;width: 340px;background: #fff;position: absolute;
+    right: 150px;top: 50px; ;}
+
+#jd .content .register ul li:hover{background: #ccc;}
+#jd .content .register ul li a{float: left; font-size: 20px;
+        width: 170px;text-align: center;line-height: 60px;}
+ 
+#jd .content .register ul li a.active{color:#f60}
+
+
+#jd .content .register ul li img{width: 150px;height: 150px;margin-left:14px;margin-top: 25px; }
+
+
+
+#jd .content .register ul li .left{position: absolute;left: 80px;top:60px;}
+ 
+
+
+#jd .content .register ul li .right{position: absolute;left: 160px;top:60px;}
+#jd .content .register ul li .right{display: none;}
+
+#jd .content .register ul .one{width: 100%;}
+#jd .content .register ul .one p{width: 100%; line-height: 250px;  text-align: center;}
+
+#jd .content .register .phone{width: 100%; position: absolute;left: 0px;top: 300px}
+#jd .content .register .phone p{text-align: center;}
+#jd .content .register .phone p span{margin-right: 10px;}
+ 
+ 
+
+
+/* 账号登陆 */
+
+#myform .p{ margin-top: 20px;}
+#myform p input{height: 26px;width: 180px;}
+
+
+#jd .content .register .forget{position: absolute;right: 76px;top: 230px;}
+#jd .content .register .sport{position: absolute;left: 76px;top: 230px;}
+ 
+
+
+#jd .content .register .btn{width: 140px;height: 40px; background: red;  
+     position: absolute;left: 98px;top: 280px;}
+
+
+
+#jd .content .register .dForm{display: none;} 
+#jd .content .register .dForm.active{display: block;}
+
+#jd .content .register .jL_bottom{width: 100%;height: 40px; 
+    position: absolute;bottom:5px; line-height: 40px; }
+ 
+    #jd .content .register .jL_bottom .one{width: 20px;height: 20px;background:url(../images/QQ-weixin.png);
+   background-position: 0px opx;margin-top: 10px;}
+
+   #jd .content .register .jL_bottom .three{width: 20px;height: 20px;background:url(../images/QQ-weixin.png);
+      background-position: -20px  0px;margin-top: 10px;}
+
+      #jd .content .register .jL_bottom .six{width: 20px;height: 20px;background:url(../images/jL.png);
+         background-position: -102px  -247px;margin-top: 10px;}
+
+   #jd .content .register .jL_bottom span{margin-right: 10px;}
+
+
+
+/* 底部 */
+
+#last {width: 1000px;height: 100px;margin-top: 40px;}
+
+#last p span {margin-right: 26px;}
+
+#last .center {width: 100%;text-align: center;line-height: 80px;}
+
+
+
+
+
+
+
+
+
+
+

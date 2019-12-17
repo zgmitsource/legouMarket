@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>shopCar</title>
+
+
+    <!-- 引入公共样式 -->
+    <link rel="stylesheet" href="./cs/common.css">
+
+    <!-- 引入当前的css -->
+    <link rel="stylesheet" href="./cs/shopCar.css">
+
+    <!-- 引入jquary -->
+    <script src="./js/jquary.js"></script>
+
+    <!-- 引入当前的js -->
+    <script src="./js/shopCar.js"></script>
+
+</head>
+
+<body>
+
+
+    <!-- header -->
+    <header id="header" class="clearfix">
+
+        <div class="container-fluid bg000 ht ">
+
+            <div class="container ce6 lh clearfix">
+                <a class="ce6 fl tit" href="#">legochina.cn</a>
+
+                <p class="fr">欢迎光临 <a href="#" class="f60">乐购</a>，请 <a href="#" class="f60">登陆</a>\<a href="#"
+                        class="f60"> 注册</a></p>
+
+
+                <!-- 加入logo -->
+                <h1 class="logo">
+                    <img src="./images/end.png" alt="#">
+                </h1>
+
+            </div>
+        </div>
+
+        <div class="container clearfix ">
+
+
+            <p class="shopBox fr bgeb mgt4">
+                <a href="#" class=" shopCar bgf60 f">购物车 <span>3</span></a>
+                <a href="#" class="shopCar1">我的订单</a>
+            </p>
+
+            <form action="#" class="fr mg ">
+                <a href="#">
+                    <input class="tSerch fl" type="text" placeholder="创意文具">
+                    <input class="sbt bgf60 fl" type="submit" value="">
+                </a>
+
+            </form>
+
+        </div>
+
+        <div class="nav container  mt  clearfix ">
+
+
+            <div class="fr">
+
+                <select>
+
+                    <option value="源码时代">源码时代</option>
+                    <option value="天府三街">天府三街</option>
+                    <option value="新园南二路" selected>新园南二路</option>
+                    <option value="高山"> 高山</option>
+                    <option value="流水 ">流水 </option>
+
+                </select>
+
+            </div>
+
+            <div class="fr"> 配送至: </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- 购物车部分 -->
+
+    <p class="container mgt30 p">填写并核对订单信息</p>
+    <form id="form" action="#" class="container  ">
+
+        <table>
+            <tr class="tCenter">
+                <td>
+                    <input type="checkbox" class="allChose">全选
+                </td>
+                <td>商品</td>
+                <td>单价</td>
+                <td>数量</td>
+                <td>小计</td>
+                <td>操作</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="CheckBox" class="singleChose">
+                </td>
+                <td class="clearfix">
+                    <img class="fl" src="./images/index08_05.jpg" alt="">
+                    <p class="pdt10">从你的全世界路过</p>
+                </td>
+                <td class="tCenter  singlePrice ">
+                    41.12
+                </td>
+                <td class="tCenter ">
+                    <a href="#" class="reduce">-</a>
+                    <input class="proNum" type="text" value="1">
+                    <a href="#" class="add">+</a>
+                </td>
+                <td class="tCenter   xiaoJi">
+                    41.12
+                </td>
+                <td>
+                    <p>删除</p>
+                    <p>移到我的关注</p>
+
+                </td>
+            </tr>
+
+
+
+
+
+            <tr>
+                <td>
+                    <input type="CheckBox" class="singleChose">
+                </td>
+                <td class="clearfix">
+                    <img class="fl" src="./images/index08_05.jpg" alt="">
+                    <p class="pdt10">从你的全世界路过</p>
+                </td>
+                <td class="tCenter  singlePrice">
+                    41.85
+                </td>
+                <td class="tCenter parent">
+                    <a href="#" class="reduce">-</a>
+                    <input class="proNum" type="text" value="1">
+                    <a href="#" class="add">+</a>
+                </td>
+                <td class="tCenter   xiaoJi">
+                    41.85
+                </td>
+                <td>
+                    <p>删除</p>
+                    <p>移到我的关注</p>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="CheckBox" class="singleChose">
+                </td>
+                <td class="clearfix">
+                    <img class="fl" src="./images/index08_05.jpg" alt="">
+                    <p class="pdt10">从你的全世界路过</p>
+                </td>
+                <td class="tCenter singlePrice">
+                    41.99
+                </td>
+                <td class="tCenter parent">
+                    <a href="#" class="reduce">-</a>
+                    <input class="proNum" type="text" value="1">
+                    <a href="#" class="add">+</a>
+                </td>
+                <td class="tCenter   xiaoJi">
+                    41.99
+                </td>
+                <td>
+                    <p>删除</p>
+                    <p>移到我的关注</p>
+
+                </td>
+            </tr>
+
+
+
+            <tr>
+
+
+                <td>
+                    <input type="checkbox" class="allChose">全选
+                </td>
+
+                <td colspan="2">删除选中商品</td>
+                <td>已选择&emsp; <span>1</span>&emsp;件商品 </td>
+                <td>总价:&emsp; <span class="totalPrice">40.00</span>&emsp; </td>
+                <td class="lh40 bgf60 f  f18  tCenter">去结算</td>
+
+            </tr>
+
+
+
+        </table>
+
+
+    </form>
+
+
+
+    </div>
+
+
+
+    <!-- legouBook -->
+    <section id="legouBook" class="container mgt30">
+        <div class="newBook">
+            <ul>
+                <li>猜你喜欢</li>
+
+            </ul>
+        </div>
+
+        <div class="content  container clearfix">
+
+            <ul class="clearfix">
+                <li>
+                    <p class="one">
+                        <img src="./images/22935553-1_l.jpg" alt="">
+                    </p>
+
+                    <p>
+                        <img src="./images/8折.png" alt="">
+                    </p>
+
+                    <p class="two">白夜行 &emsp; 东野上吾</p>
+
+                    <p class="three">推荐：<img src="./images/评价.png" alt=""></p>
+
+                    <p class="four">&yen;38 <del class="ccc">&yen;58</del></p>
+                </li>
+
+                <li>
+                    <p class="one">
+                        <img src="./images/22935553-1_l.jpg" alt="">
+                    </p>
+
+                    <p>
+                        <img src="./images/8折.png" alt="">
+                    </p>
+
+                    <p class="two">白夜行 &emsp; 东野上吾</p>
+
+                    <p class="three">推荐：<img src="./images/评价.png" alt=""></p>
+
+                    <p class="four">&yen;38 <del class="ccc">&yen;58</del></p>
+                </li>
+
+
+
+
+                <li>
+                    <p class="one">
+                        <img src="./images/22935553-1_l.jpg" alt="">
+                    </p>
+
+                    <p>
+                        <img src="./images/8折.png" alt="">
+                    </p>
+
+                    <p class="two">白夜行 &emsp; 东野上吾</p>
+
+                    <p class="three">推荐：<img src="./images/评价.png" alt=""></p>
+
+                    <p class="four">&yen;38 <del class="ccc">&yen;58</del></p>
+                </li>
+
+
+
+
+                <li>
+                    <p class="one">
+                        <img src="./images/22935553-1_l.jpg" alt="">
+                    </p>
+
+                    <p>
+                        <img src="./images/8折.png" alt="">
+                    </p>
+
+                    <p class="two">白夜行 &emsp; 东野上吾</p>
+
+                    <p class="three">推荐：<img src="./images/评价.png" alt=""></p>
+
+                    <p class="four">&yen;38 <del class="ccc">&yen;58</del></p>
+                </li>
+
+
+
+
+                <li>
+                    <p class="one">
+                        <img src="./images/22935553-1_l.jpg" alt="">
+                    </p>
+
+                    <p>
+                        <img src="./images/8折.png" alt="">
+                    </p>
+
+                    <p class="two">白夜行 &emsp; 东野上吾</p>
+
+                    <p class="three">推荐：<img src="./images/评价.png" alt=""></p>
+
+                    <p class="four">&yen;38 <del class="ccc">&yen;58</del></p>
+                </li>
+
+
+
+
+
+
+
+
+
+
+
+            </ul>
+
+        </div>
+
+
+    </section>
+
+
+    <!-- AD footer -->
+    <section id="AD_footer" class="container mgt30">
+        <img src="./images/AD.png" alt="">
+    </section>
+
+
+
+    <!-- footer -->
+    <!-- reserve -->
+    <section id="service" class="container-fulid">
+        <ul class="container clearfix">
+            <li><img src="./images/img/222_11.png" alt=""></li>
+            <li><img src="./images/img/222_13.png" alt=""></li>
+            <li><img src="./images/img/222_15.png" alt=""></li>
+            <li><img src="./images/img/222_17.png" alt=""></li>
+        </ul>
+
+    </section>
+
+
+    <div id="footer" class="container">
+
+        <ul class="foot">
+
+            <li>
+
+                <a>购物流程</a>
+                <a>发票制度</a>
+                <a>账户管理</a>
+                <a>会员优惠</a>
+
+            </li>
+            <li>
+
+                <a>货到付款</a>
+                <a>网上支付</a>
+                <a>礼品卡支付</a>
+                <a>银行转帐</a>
+
+            </li>
+            <li>
+
+                <a>订单配送查询</a>
+                <a>订单状态说明</a>
+                <a>自助取消订单</a>
+                <a>自助修改订单</a>
+
+            </li>
+            <li>
+
+                <a>退换货政策 </a>
+                <a>自助申请退换货</a>
+                <a>退换货进度查询</a>
+                <a>退款方式和时间</a>
+            </li>
+            <li>
+                <a> 商家中心</a>
+                <a> 运营服务</a>
+                <a>加入尾品汇</a>
+            </li>
+
+        </ul>
+
+
+        <div class="img">
+            <img src="./images/logo_00.png" alt="">
+        </div>
+    </div>
+
+
+    <div id="last" class="container ">
+        <p><span> 公司简介</span> <span> |</span> <span> Investor Relations</span><span> |</span>
+            <span> 网站联盟</span> <span> |</span> <span> 乐购招商</span> <span> |</span>
+            <span> 机构销售</span><span> |</span> <span> 手机乐购 </span> <span> |</span> <span> 官方Blog</span><span>
+                |</span>
+            <span> 热词搜索</span> </p>
+
+        <p class="center">Copyright (C) 乐购网 2004-2016, All Rights Reserved</p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
